@@ -1,0 +1,130 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}
+
+		, {
+			"path": "pages/News/News",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Personal/Personal",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+
+			}
+		}
+
+		, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/orderInfo/orderInfo",
+			"style": {
+				"navigationBarTitleText": "订单详情", 
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/movieDetail/movieDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/teaserDetails/teaserDetails",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/theater/theater",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/theaterRoom/theaterRoom",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/seat/seat",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "我的订单"
+
+			}
+
+		}
+        ,{
+            "path" : "pages/newDetail/newDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#8a8a8a",
+		"height": "100rpx",
+		"selectedColor": "#d31f00",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/image/home.png",
+				"selectedIconPath": "static/image/homeSelected.png"
+
+			},
+			{
+				"pagePath": "pages/News/News",
+				"text": "新闻",
+				"iconPath": "static/image/news.png",
+				"selectedIconPath": "static/image/newsSelected.png"
+			},
+			{
+				"pagePath": "pages/Personal/Personal",
+				"text": "个人中心",
+				"iconPath": "static/image/myself.png",
+				"selectedIconPath": "static/image/myselfSelected.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
